@@ -874,13 +874,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites_74
+      name: stick_attack6_0
       rect:
         serializedVersion: 2
         x: 29
         y: 706
         width: 25
-        height: 61
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,13 +895,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites_75
+      name: stick_attack6_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 706
-        width: 71
-        height: 61
+        x: 97
+        y: 707
+        width: 25
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,15 +916,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites_76
+      name: stick_attack6_2
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 707
-        width: 30
+        width: 50
         height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -937,15 +937,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites_78
+      name: stick_attack6_3
       rect:
         serializedVersion: 2
         x: 213
-        y: 706
-        width: 56
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 707
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.20833333, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -958,15 +958,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprites_79
+      name: stick_attack6_4
       rect:
         serializedVersion: 2
         x: 293
-        y: 706
-        width: 57
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 707
+        width: 60
+        height: 60
+      alignment: 9
+      pivot: {x: 0.20833333, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1402,12 +1402,7 @@ TextureImporter:
       sprites_71: -1829167971
       sprites_72: 1546735068
       sprites_73: -1330884721
-      sprites_74: -485943242
-      sprites_75: -375219303
-      sprites_76: 637707514
       sprites_77: -317644600
-      sprites_78: 1371168448
-      sprites_79: 1868052985
       sprites_80: -1158916724
       sprites_82: 1891595438
       sprites_83: 2047865458
@@ -1442,6 +1437,11 @@ TextureImporter:
       stick_attack3_3: -1668837732
       stick_attack3_4: 602272020
       stick_attack3_5: 1398806200
+      stick_attack6_0: -485943242
+      stick_attack6_1: -375219303
+      stick_attack6_2: 637707514
+      stick_attack6_3: 1371168448
+      stick_attack6_4: 1868052985
       stick_die_0: -671639083
       stick_die_1: -984693911
       stick_die_2: -612792981

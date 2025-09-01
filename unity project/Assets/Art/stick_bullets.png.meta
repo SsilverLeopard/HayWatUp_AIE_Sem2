@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: f959d1680e92de543bacdd05e3e390ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stick_laser
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 609
+        width: 478
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0056abcd3d964824fa06a9600292e9e5
+      internalID: 910231448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_small_fire
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 509
+        width: 75
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f8d9b0698ce1443a899361112d7551
+      internalID: -1786609880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_blue_fire
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 506
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d1123aa5690745927dea3b48b138a
+      internalID: 416599131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_big_fire
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 495
+        width: 103
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5122efd38ee7b489aff4b945e14c9a
+      internalID: -180328736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_arc
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 351
+        width: 50
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b485fc62a06d43b4e7fbd12b49be8
+      internalID: -806673145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_rocket_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 363
+        width: 90
+        height: 34
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cc69589f17c4848a9c3c0c0b83e394
+      internalID: 9191893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_rocket_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 363
+        width: 100
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1619321a8da7b94f8be0fce621891d2
+      internalID: -1238196143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_rocket_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 363
+        width: 100
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c935d32124d93f46bd25ea8c016d5e9
+      internalID: 553751827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_bullets_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e81b607f6391ce4ca3de86a69ca34c8
+      internalID: -39998128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_bullets_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 108
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5105c58610120a0498f333be14d193fd
+      internalID: 72149700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_bullets_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 111
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab0654083f9214db77dd24b82a6d05
+      internalID: 1585377770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_bullets_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 115
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1879c673688cfa4eb70296128ba4866
+      internalID: 530702043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stick_bullets_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 109
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3466e15db2d354c4b824e21ad6017572
+      internalID: -1641411834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stick_arc: -806673145
+      stick_big_fire: -180328736
+      stick_blue_fire: 416599131
+      stick_bullets_0: 1585377770
+      stick_bullets_1: 530702043
+      stick_bullets_10: 112646095
+      stick_bullets_13: 1965665022
+      stick_bullets_16: 1456581352
+      stick_bullets_2: -1641411834
+      stick_bullets_20: -39998128
+      stick_bullets_21: -1501759968
+      stick_bullets_22: 72149700
+      stick_bullets_23: -451560654
+      stick_bullets_24: -646572591
+      stick_bullets_25: 346986307
+      stick_bullets_26: -1424805667
+      stick_bullets_27: -1913277998
+      stick_bullets_28: 1424662700
+      stick_bullets_29: 1727721543
+      stick_bullets_3: 1529209270
+      stick_bullets_30: 1593049713
+      stick_bullets_31: -379550397
+      stick_bullets_32: 1660449542
+      stick_bullets_33: -1552498518
+      stick_bullets_34: 1440291326
+      stick_bullets_35: 925801160
+      stick_bullets_36: -312876672
+      stick_bullets_37: -1497167764
+      stick_bullets_38: -1067087366
+      stick_bullets_39: -1640794618
+      stick_bullets_4: 1352518683
+      stick_bullets_40: -1707259978
+      stick_bullets_41: -808133798
+      stick_bullets_42: -26780896
+      stick_bullets_43: 878589291
+      stick_bullets_44: 1153221045
+      stick_bullets_45: 771067555
+      stick_bullets_46: -2106694147
+      stick_bullets_47: 1087146696
+      stick_bullets_48: 2010453434
+      stick_bullets_5: -1092251743
+      stick_bullets_6: -454815536
+      stick_bullets_7: -1205584181
+      stick_bullets_8: 828355137
+      stick_bullets_9: -1815677422
+      stick_laser: 910231448
+      stick_rocket_0: 9191893
+      stick_rocket_1: -1238196143
+      stick_rocket_2: 553751827
+      stick_small_fire: -1786609880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
