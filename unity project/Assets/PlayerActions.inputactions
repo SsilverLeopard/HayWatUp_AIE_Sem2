@@ -89,7 +89,7 @@
                 {
                     "name": "RestartScene",
                     "type": "Button",
-                    "id": "03fc1142-8675-4149-b04c-ec33089353c2",
+                    "id": "dc253f8a-98db-49dc-92d8-648fd60bb4ec",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -429,7 +429,7 @@
                 },
                 {
                     "name": "",
-                    "id": "4a6c0987-76fb-4b81-b378-0e1a7605ba03",
+                    "id": "30e39d70-8fc3-4cc4-a5a7-4525664cbca0",
                     "path": "<Keyboard>/r",
                     "interactions": "",
                     "processors": "",
@@ -440,7 +440,7 @@
                 },
                 {
                     "name": "",
-                    "id": "ae3fe9b3-47da-47c9-940b-916667dacdaa",
+                    "id": "bfcf3fec-2f45-4795-9e91-9a03d3572704",
                     "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
