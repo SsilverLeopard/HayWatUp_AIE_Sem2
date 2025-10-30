@@ -166,7 +166,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StickRun
+  m_Name: CamilleRun
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -278,12 +278,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Attack
-    m_Type: 3
-    m_DefaultFloat: 0
-    m_DefaultInt: 1
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -381,7 +375,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StickIdle
+  m_Name: CamilleIdle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -465,9 +459,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: LightAttack
     m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: Attack
-    m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6452067940472433090}
   m_Solo: 0
