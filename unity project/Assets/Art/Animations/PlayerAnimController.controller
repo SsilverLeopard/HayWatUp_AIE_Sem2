@@ -61,7 +61,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8162664996631440445}
@@ -70,11 +70,11 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 551d27c81492384479fa3c322c6685d1, type: 2}
+  m_Motion: {fileID: 7400000, guid: ab69347ef2b195240aea89573bdcdbe0, type: 2}
   m_Tag: 
   m_SpeedParameter: AttackAnimationSpeed
   m_MirrorParameter: 
@@ -88,7 +88,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LightAttack
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6262524749323166534}
@@ -97,11 +97,11 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_SpeedParameterActive: 1
+  m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f7fc356a8df50cb4aa263e858ee85b63, type: 2}
+  m_Motion: {fileID: 7400000, guid: a70c586abaeead547b60d26e319e95ea, type: 2}
   m_Tag: 
   m_SpeedParameter: AttackAnimationSpeed
   m_MirrorParameter: 
@@ -166,7 +166,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CamilleRun
+  m_Name: Run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -375,7 +375,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CamilleIdle
+  m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
