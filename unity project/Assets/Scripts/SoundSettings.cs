@@ -1,36 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class SoundSettings : MonoBehaviour
+public class ValumManager1 : MonoBehaviour
 {
-    [SerializeField] Slider soundSlider;
-    [SerializeField] AudioMixer masterMixer;
+    [SerializeField]
+    Slider volumeSlider;
 
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        SetVolume(PlayerPrefs.GetFloat("SavedMasterVolume", 100));
-    }
-
-    public void SetVolume(float _value)
-    {
-        if (_value < 1)
+        if (!PlayerPrefs.HasKey("musicVolume"))
         {
-            _value = .001f;
+            PlayerPrefs.SetFloat("musicVolume", 1);
+            Load();
         }
-
-        RefreshSlider(_value);
-        PlayerPrefs.SetFloat("SavedMasterVolume", _value);
-        masterMixer.SetFloat("MasterVolume", Mathf.Log10(_value / 100) * 20f);
+        else
+        {
+            Load();
+        }
     }
 
-    public void SetVolumeFromSlider()
+    public void ChangeVolume()
     {
-        SetVolume(soundSlider.value);
+        AudioListener.volume = volumeSlider.value;
+        Save();
     }
 
-    public void RefreshSlider(float _value)
+    private void Load()
     {
-        soundSlider.value = _value;
+        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+    }
+
+    private void Save()
+    {
+        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
     }
 }
