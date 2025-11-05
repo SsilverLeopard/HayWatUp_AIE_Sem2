@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c0a14e1dfc9e47a42907372306f0975a
+guid: 8d1cc6fa9a1840f41b163a2bf90d7b4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,18 +95,84 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WhipAttack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1166.6666
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b753826116c2cec4e9e718f9d257ccce
+      internalID: -1075515691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipAttack_1
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 1166.6666
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f01b76b00db7b4e90faa4536e9518e
+      internalID: 1993206781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipAttack_2
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 1166.6666
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92b0f9cdf5aa04e97cacc5e55b9a58
+      internalID: 1361975803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: a8375af34cde29d418121f1559b34cd5
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WhipAttack_0: -1075515691
+      WhipAttack_1: 1993206781
+      WhipAttack_2: 1361975803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
